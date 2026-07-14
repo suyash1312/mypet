@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'General Sans', 'Inter', sans-serif;
+  background-color: #EEEAE0;
+}
+
+/* Signature paw-print divider mark used next to the brand name */
+.paw-mark {
+  display: inline-block;
+  position: relative;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 9999px;
+  background-color: #C1440E;
+}
